@@ -7,17 +7,17 @@ using Newtonsoft.Json;
 using Plugin.Connectivity;
 using Items.Models;
 
-namespace Items.Services
+namespace Items.ModelRepositories
 {
-	public class AzureDataStore : IDataStore<Item>
+	public class ItemDataStore : IDataStore<Item>
 	{
 		HttpClient client;
 		IEnumerable<Item> items;
 
-		public AzureDataStore()
+		public ItemDataStore()
 		{
 			client = new HttpClient();
-			client.BaseAddress = new Uri($"{App.AzureBackendUrl}/");
+			client.BaseAddress = new Uri($"{Constants.AzureBackendUrl}/");
 
 			items = new List<Item>();
 		}

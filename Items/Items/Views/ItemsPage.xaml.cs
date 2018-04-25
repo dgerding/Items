@@ -8,10 +8,10 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 using Items.Models;
-using Items.Views;
-using Items.ViewModels;
+using Items.XamarinForms.Views;
+using Items.XamarinForms.ViewModels;
 
-namespace Items.Views
+namespace Items.XamarinForms.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class ItemsPage : ContentPage

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -48,13 +48,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="2.5.*" />
+    <PackageReference Include="Xamarin.Forms" Version="2.5.1.444934" />
     <PackageReference Include="Xamarin.Android.Support.Design" Version="25.*" />
     <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="25.*" />
     <PackageReference Include="Xamarin.Android.Support.v4" Version="25.*" />
     <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="25.*" />
     <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="25.*" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="Xam.Plugin.Connectivity" Version="3.1.1" />
   </ItemGroup>
   <ItemGroup>
@@ -93,10 +93,10 @@
     <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Items\Items.csproj">
-      <Project>{EC393B9D-2EB1-4FA2-8C07-CA3CF6AB977A}</Project>
-      <Name>Items</Name>
+    <ProjectReference Include="..\Items\Items.XamarinForms.csproj">
+      <Project>{4D40BD88-7F59-42C5-9E2F-78917A7813C5}</Project>
+      <Name>Items.XamarinForms</Name>
     </ProjectReference>
   </ItemGroup>
- <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Windows.Input;
-using Xamarin.Forms;
 
-namespace Items.XamarinForms.ViewModels
+
+namespace Items.ViewModels
 {
     public class AboutViewModel : BaseViewModel
     {

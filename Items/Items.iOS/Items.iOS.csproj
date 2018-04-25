@@ -129,15 +129,15 @@
     <Reference Include="System.Net.Http" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="2.5.*" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
+    <PackageReference Include="Xamarin.Forms" Version="2.5.1.444934" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="Xam.Plugin.Connectivity" Version="3.1.1" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\Items\Items.csproj">
-      <Project>{EC393B9D-2EB1-4FA2-8C07-CA3CF6AB977A}</Project>
-      <Name>Items</Name>
+    <ProjectReference Include="..\Items\Items.XamarinForms.csproj">
+      <Project>{4D40BD88-7F59-42C5-9E2F-78917A7813C5}</Project>
+      <Name>Items.XamarinForms</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

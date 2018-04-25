@@ -3,7 +3,9 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Items.Views
+using Items.XamarinForms.ViewModels;
+
+namespace Items.XamarinForms.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class AboutPage : ContentPage

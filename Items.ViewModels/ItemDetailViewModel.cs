@@ -2,7 +2,7 @@
 
 using Items.Models;
 
-namespace Items.XamarinForms.ViewModels
+namespace Items.ViewModels
 {
     public class ItemDetailViewModel : BaseViewModel
     {

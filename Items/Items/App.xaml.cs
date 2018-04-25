@@ -1,14 +1,14 @@
 ﻿using System;
 using Xamarin.Forms;
-using Items.Services;
-using Items.Views;
+using Items.ModelRepositories;
+using Items.XamarinForms.Views;
 
-namespace Items
+namespace Items.XamarinForms
 {
 	public partial class App : Application
 	{
 		//TODO: Replace with *.azurewebsites.net url after deploying backend to Azure
-        public static string AzureBackendUrl = "http://localhost:5000";
+        
         public static bool UseMockDataStore = true;
 		
 		public App ()
@@ -18,7 +18,7 @@ namespace Items
 			if (UseMockDataStore)
 				DependencyService.Register<MockDataStore>();
 			else
-				DependencyService.Register<AzureDataStore>();
+				DependencyService.Register<ItemDataStore>();
 
 			MainPage = new MainPage();
 		}

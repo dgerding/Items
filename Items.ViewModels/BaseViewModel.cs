@@ -5,9 +5,8 @@ using System.Runtime.CompilerServices;
 
 using Items.Models;
 using Items.ModelRepositories;
-using Xamarin.Forms;
 
-namespace Items.XamarinForms.ViewModels
+namespace Items.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {

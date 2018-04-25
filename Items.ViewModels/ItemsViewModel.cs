@@ -3,10 +3,8 @@ using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Items.Models;
-using Items.XamarinForms.Views;
-using Xamarin.Forms;
 
-namespace Items.XamarinForms.ViewModels
+namespace Items.ViewModels
 {
     public class ItemsViewModel : BaseViewModel
     {

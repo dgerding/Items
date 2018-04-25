@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Items.Services
+namespace Items.ModelRepositories
 {
     public interface IDataStore<T>
     {
