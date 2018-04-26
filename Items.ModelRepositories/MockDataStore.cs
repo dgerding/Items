@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 using Items.Models;
 
-namespace Items.ModelRepositories
+namespace Items.DataStores
 {
     public class MockDataStore : IDataStore<Item>
     {

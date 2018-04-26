@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Items.ModelRepositories
+namespace Items.DataStores
 {
     public static class Constants
     {
-        public static readonly string AzureBackendUrl = "http://localhost:5000";
+        //TODO: Replace with *.azurewebsites.net url after deploying backend to Azure
+        public static readonly string AzureBackendUrl = "https://itemsservice.azurewebsites.net";
     }
 }

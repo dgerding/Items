@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
 using Items.Models;
-using Items.ModelRepositories;
+using Items.DataStores;
 using Xamarin.Forms;
 
 namespace Items.XamarinForms.ViewModels

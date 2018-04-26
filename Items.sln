@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Items.MobileAppService", "I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Items.Models", "Items.Models\Items.Models.csproj", "{9CB0B6FC-12E7-46C7-A5EE-0D70FB6E30E2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Items.ModelRepositories", "Items.ModelRepositories\Items.ModelRepositories.csproj", "{7F3A27DF-8A13-4888-B039-D3A096F57905}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Items.DataStores", "Items.ModelRepositories\Items.DataStores.csproj", "{7F3A27DF-8A13-4888-B039-D3A096F57905}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps (Xamarin Forms)", "Apps (Xamarin Forms)", "{A0B9EB5B-D956-4F4D-B9FE-C99FD75D4120}"
 	ProjectSection(SolutionItems) = preProject

@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Items.ModelRepositories\Items.ModelRepositories.csproj" />
+    <ProjectReference Include="..\..\Items.ModelRepositories\Items.DataStores.csproj" />
     <ProjectReference Include="..\..\Items.Models\Items.Models.csproj" />
   </ItemGroup>
 </Project>

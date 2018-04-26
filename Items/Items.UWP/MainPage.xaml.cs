@@ -21,7 +21,7 @@ namespace Items.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new Items.App());
+            LoadApplication(new Items.XamarinForms.App());
         }
     }
 }

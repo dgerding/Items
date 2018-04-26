@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 using Plugin.Connectivity;
 using Items.Models;
 
-namespace Items.ModelRepositories
+namespace Items.DataStores
 {
 	public class ItemDataStore : IDataStore<Item>
 	{

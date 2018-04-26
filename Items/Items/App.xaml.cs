@@ -1,15 +1,14 @@
 ﻿using System;
 using Xamarin.Forms;
-using Items.ModelRepositories;
+using Items.DataStores;
 using Items.XamarinForms.Views;
 
 namespace Items.XamarinForms
 {
 	public partial class App : Application
 	{
-		//TODO: Replace with *.azurewebsites.net url after deploying backend to Azure
-        
-        public static bool UseMockDataStore = true;
+		
+        public static bool UseMockDataStore = false;
 		
 		public App ()
 		{
