@@ -7,11 +7,16 @@ using Items.Models;
 
 namespace Items.DataStores
 {
-    public class MockDataStore : IDataStore<Item>
+    public class ItemMockDataStore : IDataStore<Item>
     {
         List<Item> items;
 
-        public MockDataStore()
+        public bool IsLocal()
+        {
+            return true;
+        }
+
+        public ItemMockDataStore()
         {
             items = new List<Item>();
             var mockItems = new List<Item>

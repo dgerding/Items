@@ -1,7 +1,7 @@
-﻿Models
+﻿# DataModels
 
 
-The Models project contains the application domain data types as simple property objects.
+The DataModels project contains the application domain data types as simple property objects.
 
-Collections of these objects and persistence related support are implemented using the Repository pattern in the ModelRepositories project.
+Collections of these objects and persistence related support are implemented in the DataStores project. The DataStores are implemenations that attempt to follow the Respository and UnitOfWork patterns.
 

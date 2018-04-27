@@ -11,5 +11,10 @@ namespace Items.DataStores
         Task<bool> DeleteItemAsync(string id);
         Task<T> GetItemAsync(string id);
         Task<IEnumerable<T>> GetItemsAsync(bool forceRefresh = false);
+        
+        /// <summary>
+        /// True if this DataStore is accessing persistence runtime local to client runtime and does not require Internet connection, i.e., ItemSQLiteDataStore. 
+        /// </summary>
+        bool IsLocal();
     }
 }

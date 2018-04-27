@@ -9,15 +9,21 @@ using Items.Models;
 
 namespace Items.DataStores
 {
-	public class ItemDataStore : IDataStore<Item>
+	public class ItemAzureDataStore : IDataStore<Item>
 	{
 		HttpClient client;
 		IEnumerable<Item> items;
+        public static readonly string AzureBackendUrl = "https://itemsservice.azurewebsites.net";
 
-		public ItemDataStore()
+        public bool IsLocal()
+        {
+            return false;
+        }
+
+        public ItemAzureDataStore()
 		{
 			client = new HttpClient();
-			client.BaseAddress = new Uri($"{Constants.AzureBackendUrl}/");
+			client.BaseAddress = new Uri($"{AzureBackendUrl}/");
 
 			items = new List<Item>();
 		}
