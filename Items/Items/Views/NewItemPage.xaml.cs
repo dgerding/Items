@@ -6,7 +6,7 @@ using Xamarin.Forms.Xaml;
 
 using Items.Models;
 
-namespace Items.XamarinForms.Views
+namespace Items.XF.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class NewItemPage : ContentPage

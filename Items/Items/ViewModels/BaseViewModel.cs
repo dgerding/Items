@@ -7,7 +7,7 @@ using Items.Models;
 using Items.DataStores;
 using Xamarin.Forms;
 
-namespace Items.XamarinForms.ViewModels
+namespace Items.XF.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {

@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27604.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Items.XamarinForms", "Items\Items\Items.XamarinForms.csproj", "{4D40BD88-7F59-42C5-9E2F-78917A7813C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Items.XF", "Items\Items\Items.XF.csproj", "{4D40BD88-7F59-42C5-9E2F-78917A7813C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Items.Android", "Items\Items.Android\Items.Android.csproj", "{9B0B61BF-9AC1-4BE5-A42C-7001C4A41BCC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Items.XF.Android", "Items\Items.Android\Items.XF.Android.csproj", "{9B0B61BF-9AC1-4BE5-A42C-7001C4A41BCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Items.iOS", "Items\Items.iOS\Items.iOS.csproj", "{F0F104BB-C18A-48B6-9853-7175266D5247}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Items.XF.iOS", "Items\Items.iOS\Items.XF.iOS.csproj", "{F0F104BB-C18A-48B6-9853-7175266D5247}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Items.UWP", "Items\Items.UWP\Items.UWP.csproj", "{17EB5BD5-6C17-42EB-B833-233B2AF13053}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Items.XF.UWP", "Items\Items.UWP\Items.XF.UWP.csproj", "{17EB5BD5-6C17-42EB-B833-233B2AF13053}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Items.MobileAppService", "Items\Items.MobileAppService\Items.MobileAppService.csproj", "{06316624-5429-4EFE-9997-B8A4C73495DE}"
 EndProject

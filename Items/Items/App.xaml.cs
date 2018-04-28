@@ -1,9 +1,9 @@
 ﻿using System;
 using Xamarin.Forms;
 using Items.DataStores;
-using Items.XamarinForms.Views;
+using Items.XF.Views;
 
-namespace Items.XamarinForms
+namespace Items.XF
 {
 	public partial class App : Application
 	{

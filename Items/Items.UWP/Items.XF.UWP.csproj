@@ -7,8 +7,8 @@
     <ProjectGuid>{17EB5BD5-6C17-42EB-B833-233B2AF13053}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Items.UWP</RootNamespace>
-    <AssemblyName>Items.UWP</AssemblyName>
+    <RootNamespace>Items.XF.UWP</RootNamespace>
+    <AssemblyName>Items.XF.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.16299.0</TargetPlatformVersion>
@@ -151,9 +151,9 @@
     <PackageReference Include="Xam.Plugin.Connectivity" Version="3.1.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Items\Items.XamarinForms.csproj">
+    <ProjectReference Include="..\Items\Items.XF.csproj">
       <Project>{4D40BD88-7F59-42C5-9E2F-78917A7813C5}</Project>
-      <Name>Items.XamarinForms</Name>
+      <Name>Items.XF</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

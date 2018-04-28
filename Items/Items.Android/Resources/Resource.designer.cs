@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Items.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Items.XF.Android.Resource", IsApplication=true)]
 
-namespace Items.Droid
+namespace Items.XF.Android
 {
 	
 	
@@ -26,7 +26,7 @@ namespace Items.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Items.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Items.XF.Android.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation

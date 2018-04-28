@@ -4,9 +4,9 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 using Items.Models;
-using Items.XamarinForms.ViewModels;
+using Items.XF.ViewModels;
 
-namespace Items.XamarinForms.Views
+namespace Items.XF.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class ItemDetailPage : ContentPage

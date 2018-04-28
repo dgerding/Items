@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace Items.iOS
+namespace Items.XF.iOS
 {
     public class Application
     {
