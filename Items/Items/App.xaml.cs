@@ -18,7 +18,7 @@ namespace Items.XF
 		{
 			InitializeComponent();
 
-            CheckDeviceRunStatus();
+            CheckDeviceRunHistory();
             EnsureUserIdentity();
 
             SetLocalDataStore();
@@ -35,7 +35,7 @@ namespace Items.XF
         /// Useful for variety of onboarding or interval checking purposes.
         /// Good demonstration of secure, cross-platfrom app settings and persistence using ??.
         /// </remarks>
-        private void CheckDeviceRunStatus()
+        private void CheckDeviceRunHistory()
         {
 
         }
