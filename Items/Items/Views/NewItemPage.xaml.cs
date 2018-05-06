@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using Items.Models;
+using Items.DataModels;
 
 namespace Items.XF.Views
 {

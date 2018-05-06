@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Plugin.Connectivity;
-using Items.Models;
+using Items.DataModels;
 
 namespace Items.DataStores
 {

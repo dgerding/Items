@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-using Items.Models;
+using Items.DataModels;
 using Items.DataStores;
 using Xamarin.Forms;
 

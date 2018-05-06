@@ -1,6 +1,6 @@
 ﻿using System;
 
-using Items.Models;
+using Items.DataModels;
 
 namespace Items.XF.ViewModels
 {

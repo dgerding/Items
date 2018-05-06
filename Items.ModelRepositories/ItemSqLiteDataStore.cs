@@ -7,9 +7,7 @@ using Newtonsoft.Json;
 using Plugin.Connectivity;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
-
-
-using Items.Models;
+using Items.DataModels;
 
 namespace Items.DataStores
 {

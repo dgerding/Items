@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using Items.Models;
+using Items.DataModels;
 using Items.XF.Views;
 using Items.XF.ViewModels;
 

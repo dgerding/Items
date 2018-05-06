@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Items.Models
+namespace Items.DataModels
 {
     /// <summary>
     /// A canonical data entity class for demonstrating data related UI and CRUD implementations.
